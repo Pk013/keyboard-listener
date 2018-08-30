@@ -26,7 +26,7 @@ document.addEventListener('keydown', (event) => {
         case "ArrowLeft": 
             console.log(keyName + " pressed")
             leftPressed = true
-            boxLeft += 10
+            boxLeft -= 10
             document.getElementById("box").style.left  = boxLeft + "px"
             break
         case "ArrowRight":
